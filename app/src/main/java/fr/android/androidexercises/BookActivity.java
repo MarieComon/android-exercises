@@ -1,5 +1,8 @@
 package fr.android.androidexercises;
 
+import android.app.Activity;
+import android.app.Instrumentation;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -24,6 +27,10 @@ public class BookActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // TODO set result to book name in intent
                 // TODO finish current activity
+                Intent data = new Intent();
+                data.putExtra("book", bookName);
+                setResult(Activity.RESULT_OK, data);
+                finish();
             }
         });
     }
