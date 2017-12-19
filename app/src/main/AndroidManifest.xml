@@ -9,7 +9,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".LibraryActivity"
+            android:name=".LibraryActivity2"
             android:label="@string/app_name"
             android:theme="@style/AppTheme">
             <intent-filter>
