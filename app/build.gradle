@@ -34,7 +34,10 @@ dependencies {
 
     implementation("com.android.support:appcompat-v7:$support_version",
             "com.android.support:design:$support_version",
-            "com.android.support.constraint:constraint-layout:1.0.2")
+            "com.android.support.constraint:constraint-layout:1.0.2",
+            "com.squareup.retrofit2:retrofit:2.2.0",
+            "com.squareup.retrofit2:converter-gson:2.2.0",
+            'com.jakewharton.timber:timber:4.6.0')
 
     // TODO add Retrofit
 
